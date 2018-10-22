@@ -1,0 +1,37 @@
+{
+  "name": "FSTMaps",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "firebase": "^5.0.4",
+    "moment": "^2.22.2",
+    "native-base": "^2.4.5",
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "react-native-animatable": "^1.3.0",
+    "react-native-autogrow-textinput": "^5.1.1",
+    "react-native-cards": "^1.1.4",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-email": "^1.0.1",
+    "react-native-maps": "^0.21.0",
+    "react-native-modal-dropdown": "^0.6.2",
+    "react-native-popup-dialog": "^0.11.46",
+    "react-native-smart-splash-screen": "^2.3.5",
+    "react-native-spinkit": "^1.1.1",
+    "react-native-voice": "^0.2.6",
+    "react-navigation": "^1.5.12"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.3",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
